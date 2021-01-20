@@ -1,1 +1,85 @@
-font-family: 'Fraunces', serif;
+body{
+    font-family: 'Fraunces', serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: rgb(104, 98, 98);
+}
+
+.name-color{
+    color: blue;
+}
+
+.haf-width{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.haf-width img{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.top-bg{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+section{
+    height: 500px;
+}
+
+.buttom{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100px;
+    margin-left: 20px;  
+}
+
+.dream{
+    padding-top: 5%;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.ex{
+    text-align: center;
+}
+
+.box{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height:400px ;
+    margin-bottom: 30px;
+}
+
+.exp{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full, #baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(140deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+footer p{
+    text-align: center;
+}
